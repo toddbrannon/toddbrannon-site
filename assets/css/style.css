@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS Variables */
+
+ :root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Lato, Arial, Helvetca, sans-serif;
+    -color: var(--dark);
+}
+
+#footer {
+    color: var(--dark);
+    text-align: right;
+}
+
+
+/* Landing page */
+
+body {
+    background: #ccc;
+    margin: 0;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(214, 218, 208);
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url('../img/showcase2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(214, 218, 208);
+    border: rgb(214, 218, 208) 1px solid;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 7px;
+}
+
+#showcase .button:hover {
+    background: rgb(214, 218, 208);
+    color: #000;
+}
+
+.buttons {
+    display: flex;
+}
+
+#section-a {
+    padding: 20px;
+    background: rgb(214, 218, 208);
+    color: #2d2d2d;
+    text-align: center;
+}
+
+#section-b {
+    padding: 20px;
+    background: #f4f4f4;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+}
+
+#section-c div {
+    padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+    background: rgb(214, 218, 208);
+    color: #2d2d2d;
+}
+
+#section-c .box-2 {
+    background: #e2e2e2;
+    color: #2d2d2d;
+}
+
+
+/* Main site (not landing page) */
+
+
+/* .main {
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+} */
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+    background: #ccc;
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+
+/* Navigation */
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+    background: var(--primary);
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+}
+
+.main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
+
+/* Top Container */
+
+.top-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'showcase';
+}
+
+
+/* Showcase */
+
+.showcase {
+    grid-area: showcase;
+    min-height: 400px;
+    background: url(../img/showcase2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+}
+
+.showcase p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
+}
+
+.showcase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(214, 218, 208);
+    border: rgb(214, 218, 208) 1px solid;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 7px;
+}
+
+.showcase .button:hover {
+    background: rgb(214, 218, 208);
+    color: #000;
+}
+
+
+/* Top Box (removed - these were the pricing boxes in the original template to the right of the showcase */
+
+.top-box {
+    background: var(--primary);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+}
+
+.top-box .price {
+    font-size: 2.5rem;
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+
+/* Boxes */
+
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+    background: var(--primary);
+    font-family: Lato, Arial, Helvetca, sans-serif;
+    color: var(--dark);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+}
+
+.box h3 {
+    margin: 8px 0;
+}
+
+.box i {
+    margin: 0 10px;
+}
+
+.box a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+
+/* Info */
+
+.info {
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    font-family: Lato, Arial, Helvetca, sans-serif;
+    color: var(--dark);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.portfolio img {
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.info .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--dark);
+    border: var(--dark) solid;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 7px;
+}
+
+.info .button:hover {
+    background: var(--dark);
+    color: var(--light);
+}
+
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+    .top-container {
+        grid-template-areas: 'showcase showcase' 'top-box-a top-box-b';
+    }
+    .showcase h1 {
+        font-size: 2.5rem;
+    }
+    .main-nav ul {
+        grid-template-columns: 1fr;
+    }
+    .info {
+        grid-template-columns: 1fr;
+    }
+    .info .btn {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .top-container {
+        grid-template-areas: 'showcase' 'top-box-a' 'top-box-b';
+    }
+}
