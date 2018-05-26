@@ -1,0 +1,30 @@
+<div class="p-wrapper">
+    <button class="accordion" type="button">Excel</button>
+    <div class="panel">
+        <section class="portfolio">
+            <img src="img/DASH BIG IMAGE.jpg" alt="">
+            <img src="img/SC Dashboard Sample.jpg" alt="">
+        </section>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].onclick = function() {
+                this.classList.toggle("active");
+
+                var panel = this.nextElementSibling;
+
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            }
+        }
+    </script>
+
+</div>
