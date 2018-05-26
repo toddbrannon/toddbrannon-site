@@ -130,7 +130,6 @@ img {
     background: #000;
     margin: 30px 50px;
     line-height: 1.4;
-    border: 2px solid var(--light);
 }
 
 
@@ -142,7 +141,7 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(4, 1fr);
-    border: var(--light);
+    border: 2px solid var(--light);
 }
 
 .main-nav a {
