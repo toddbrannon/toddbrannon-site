@@ -21,6 +21,10 @@ app.get('/webdev', (req, res) => {
     res.render('webdev');
 });
 
+app.get('/excel', (req, res) => {
+    res.render('excel');
+});
+
 app.listen(port);
 
 //const port = (process.env.PORT, process.env.IP) || 5000;
