@@ -220,7 +220,7 @@ img {
 .showcase .lead {
     display: grid;
     grid-gap: 20px;
-    padding: 0;
+    padding: 5px;
     list-style: none;
     grid-template-columns: repeat(1, 1fr);
     margin: 10px auto;
