@@ -192,7 +192,6 @@ img {
     font-size: 4rem;
     margin-bottom: 0;
     color: var(--light);
-    margin: auto;
 }
 
 .showcase img {
@@ -205,7 +204,7 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
-    margin: 0;
+    margin: auto;
 }
 
 .showcase p {
