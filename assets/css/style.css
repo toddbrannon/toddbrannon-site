@@ -144,7 +144,7 @@ img {
 }
 
 .main-nav a {
-    background: var(--dark);
+    background: #000;
     opacity: 0.8;
     display: block;
     text-decoration: none;
