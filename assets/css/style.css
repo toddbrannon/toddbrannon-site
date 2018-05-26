@@ -194,6 +194,10 @@ img {
     margin: auto;
 }
 
+.showcase img {
+    margin: auto;
+}
+
 .showcase p {
     font-size: 1.3rem;
     margin-top: 0;
