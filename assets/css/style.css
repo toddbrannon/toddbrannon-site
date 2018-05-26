@@ -310,6 +310,7 @@ img {
     color: var(--dark);
     padding: 3rem;
     margin: 20px auto;
+    width: 100%;
 }
 
 .portfolio img {
