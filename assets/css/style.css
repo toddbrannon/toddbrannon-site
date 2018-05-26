@@ -190,7 +190,7 @@ img {
 
 .showcase h1 {
     font-size: 4rem;
-    margin: auto 0 auto;
+    margin: 0 auto;
     color: var(--light);
 }
 
@@ -204,7 +204,7 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
-    margin: auto;
+    margin: 10px auto;
 }
 
 .showcase p {
