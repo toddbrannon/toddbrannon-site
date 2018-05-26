@@ -207,6 +207,10 @@ img {
     margin: 10px auto;
 }
 
+.showcase li {
+    margin: auto;
+}
+
 .showcase p {
     font-size: 1.3rem;
     margin-top: 0;
