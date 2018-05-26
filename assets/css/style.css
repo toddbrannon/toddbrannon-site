@@ -156,6 +156,11 @@ img {
     /*box-shadow: var(--shadow);*/
 }
 
+.main-nav li {
+    outline-color: var(--light);
+    outline-width: 2px;
+}
+
 .main-nav a:hover {
     background: var(--light);
     color: var(--dark);
