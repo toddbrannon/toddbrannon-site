@@ -406,6 +406,7 @@ div.panel {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
+    align-content: center;
 }
 
 
