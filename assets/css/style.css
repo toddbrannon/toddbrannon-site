@@ -310,7 +310,6 @@ img {
     color: var(--dark);
     padding: 3rem;
     margin: 20px auto;
-    width: 100%;
 }
 
 .portfolio img {
@@ -365,7 +364,7 @@ padding: 3rem;
     border: 0px;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 90%;
     text-align: left;
     font-size: 18px;
     transition: .4s;
