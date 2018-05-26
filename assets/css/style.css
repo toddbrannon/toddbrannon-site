@@ -385,7 +385,7 @@ div.panel {
     color: var(--primary);
     max-height: 0;
     overflow: hidden;
-    width: 67.45%;
+    width: 100%;
     margin: 0 auto;
     transition: max-height .2s ease-out;
 }
