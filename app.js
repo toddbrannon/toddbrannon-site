@@ -17,6 +17,10 @@ app.get('/portfolio', (req, res) => {
     res.render('portfolio');
 });
 
+app.get('/webdev', (req, res) => {
+    res.render('webdev');
+});
+
 app.listen(port);
 
 //const port = (process.env.PORT, process.env.IP) || 5000;
