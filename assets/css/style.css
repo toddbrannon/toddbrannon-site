@@ -168,7 +168,6 @@ img {
     display: grid;
     grid-gap: 20px;
     grid-template-areas: 'showcase';
-    justify-content: center;
 }
 
 
@@ -192,6 +191,7 @@ img {
     font-size: 4rem;
     margin-bottom: 0;
     color: var(--light);
+    justify-content: center;
 }
 
 .showcase p {
