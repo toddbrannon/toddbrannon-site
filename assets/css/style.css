@@ -205,7 +205,7 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(5, 1fr);
-    margin: auto;
+    margin: 0 auto;
 }
 
 .showcase p {
