@@ -127,7 +127,7 @@ img {
 .wrapper {
     display: grid;
     grid-gap: 20px;
-    background: #ccc;
+    background: #000;
     margin: 30px 50px;
     line-height: 1.4;
 }
