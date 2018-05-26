@@ -153,8 +153,8 @@ img {
     color: var(--primary);
     text-transform: uppercase;
     font-size: 1.1rem;
-    outline-color: var(--light);
-    outline-width: 10px;
+    border: var(--light);
+    border-width: 2px;
     /*box-shadow: var(--shadow);*/
 }
 
