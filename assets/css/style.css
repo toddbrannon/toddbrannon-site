@@ -141,6 +141,7 @@ img {
     padding: 0;
     list-style: none;
     grid-template-columns: repeat(4, 1fr);
+    border: var(--light);
 }
 
 .main-nav a {
@@ -153,8 +154,6 @@ img {
     color: var(--primary);
     text-transform: uppercase;
     font-size: 1.1rem;
-    border: var(--light);
-    border-width: 2px;
     /*box-shadow: var(--shadow);*/
 }
 
