@@ -351,13 +351,9 @@ padding: 3rem;
 }
 
 .p-wrapper {
-    margin: 50px auto;
+    margin: 25px auto;
     font-weight: 400;
     text-align: center;
-}
-
-.p-wrapper {
-    width: 100%;
 }
 
 .p-wrapper button.accordion {
