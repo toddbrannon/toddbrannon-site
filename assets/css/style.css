@@ -190,7 +190,7 @@ img {
 
 .showcase h1 {
     font-size: 4rem;
-    margin-bottom: 0;
+    margin: 0 auto;
     color: var(--light);
 }
 
