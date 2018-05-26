@@ -199,6 +199,15 @@ img {
     margin: auto;
 }
 
+.showcase ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+}
+
 .showcase p {
     font-size: 1.3rem;
     margin-top: 0;
@@ -399,15 +408,6 @@ div.panel {
 
 
 /* Webdev */
-
-.showcase ul {
-    display: grid;
-    grid-gap: 20px;
-    padding: 0;
-    list-style: none;
-    grid-template-columns: repeat(5, 1fr);
-    align-content: center;
-}
 
 
 /* Media Queries */
