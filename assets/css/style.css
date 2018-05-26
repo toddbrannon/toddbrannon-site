@@ -356,6 +356,10 @@ padding: 3rem;
     text-align: center;
 }
 
+.p-wrapper {
+    width: 100%;
+}
+
 .p-wrapper button.accordion {
     background: var(--primary);
     box-shadow: var(--shadow);
@@ -364,7 +368,6 @@ padding: 3rem;
     border: 0px;
     cursor: pointer;
     padding: 18px;
-    width: 70%;
     text-align: left;
     font-size: 18px;
     transition: .4s;
