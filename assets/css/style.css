@@ -309,6 +309,7 @@ img {
     font-family: Lato, Arial, Helvetca, sans-serif;
     color: var(--dark);
     padding: 3rem;
+    margin: 20px auto;
 }
 
 .portfolio img {
