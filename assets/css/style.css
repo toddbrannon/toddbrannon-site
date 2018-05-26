@@ -343,7 +343,7 @@ img {
     text-align: center;
 }
 
-.portfolio button.accordion {
+.p-wrapper button.accordion {
     background: var(--primary);
     box-shadow: var(--shadow);
     font-family: Lato, Arial, Helvetca, sans-serif;
@@ -357,12 +357,12 @@ img {
     transition: .4s;
 }
 
-.portfolio button:focus {
+.p-wrapper button:focus {
     outline: none;
 }
 
-.portfolio button.accordion.active,
-.portfolio button.accordion:hover {
+.p-wrapper button.accordion.active,
+.p-wrapper button.accordion:hover {
     background: var(--dark);
     color: var(--primary);
 }
