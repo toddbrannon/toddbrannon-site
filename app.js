@@ -13,6 +13,10 @@ app.get('/main', (req, res) => {
     res.render('main');
 });
 
+app.get('/about', (req, res) => {
+    res.render('about');
+});
+
 app.get('/portfolio', (req, res) => {
     res.render('portfolio');
 });
