@@ -443,7 +443,11 @@ div.panel {
 }
 
 
-/* Webdev */
+/* About */
+
+.about {
+    width: 50%;
+}
 
 
 /* Media Queries */
