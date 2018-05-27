@@ -321,6 +321,17 @@ img {
 }
 
 
+/* About */
+
+.about .box {
+    background: var(--primary);
+    font-family: Lato, Arial, Helvetca, sans-serif;
+    color: var(--dark);
+    text-align: left;
+    padding: 1.5rem 2rem;
+}
+
+
 /* Info */
 
 .info {
@@ -440,14 +451,6 @@ div.panel {
     width: 100%;
     margin: 0 auto;
     transition: max-height .2s ease-out;
-}
-
-
-/* About */
-
-.about {
-    width: 50%;
-    height: 50%;
 }
 
 
