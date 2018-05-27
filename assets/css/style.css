@@ -208,7 +208,7 @@ img {
     border: 2px solid var(--primary);
 }
 
-.showcase ul .excel {
+.showcase .excel {
     display: grid;
     grid-gap: 20px;
     padding: 10px;
