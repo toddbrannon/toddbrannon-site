@@ -29,6 +29,10 @@ app.get('/excel', (req, res) => {
     res.render('excel');
 });
 
+app.get('/access', (req, res) => {
+    res.render('access');
+});
+
 app.listen(port);
 
 //const port = (process.env.PORT, process.env.IP) || 5000;
