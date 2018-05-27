@@ -224,7 +224,7 @@ img {
 
 .showcase p {
     font-size: 1.3rem;
-    margin: 20px auto;
+    margin: auto;
     color: var(--primary);
 }
 
