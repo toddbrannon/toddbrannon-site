@@ -215,7 +215,6 @@ img {
     list-style: none;
     grid-template-columns: repeat(2, 1fr);
     margin: 10px auto;
-    border: 2px solid var(--primary);
 }
 
 .showcase li {
