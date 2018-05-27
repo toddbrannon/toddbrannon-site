@@ -327,8 +327,12 @@ img {
     background: var(--primary);
     font-family: Lato, Arial, Helvetca, sans-serif;
     color: var(--dark);
-    text-align: left;
+    text-align: center;
     padding: 1.5rem 2rem;
+}
+
+.about box p {
+    text-align: left;
 }
 
 
