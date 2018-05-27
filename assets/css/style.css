@@ -232,7 +232,7 @@ img {
     display: grid;
     grid-gap: 20px;
     padding: 5px;
-    margin: auto;
+    margin: 10px auto;
     list-style: none;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
