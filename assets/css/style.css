@@ -472,4 +472,7 @@ div.panel {
     .top-container {
         grid-template-areas: 'showcase' 'top-box-a' 'top-box-b';
     }
+    .showcase ul {
+        display: none;
+    }
 }
